@@ -20,6 +20,7 @@ body {
   border: 10px solid black;
   display: inline-block;
   padding-bottom: 0px;
+  transform: scalex(3);
 }
 
 nav li {
@@ -35,8 +36,40 @@ nav li {
   position: relative;
   bottom: 300px;
   left: 700px;
+  transform: rotate(35deg);
 }
 .corregir {
   margin-top: 0px;
   padding-top: 0px;
+}
+
+.logo1 {
+  transform: translate(20px);
+}
+.subtitulo {
+  color: red;
+  transition: all 1s;
+}                                                       /* transicion */
+.subtitulo:hover {
+  font-family: sans-serif;
+  font-size: 50px;      
+  color: green;
+}
+input {
+  width: 100px;
+  transition: all 1s;
+}                              
+input:focus {                /* focus */
+  width: 400px;
+  background-color: aqua;
+}
+
+@keyframes efecto {
+  0% {background-image: url(../img/pelota.jpg);}
+  50% {background-image:url(../img/correr.jpg);}
+  100% {background-image: url(../img/playa.jpg);}
+}
+body {
+  animation-name: efecto;
+  animation-duration: 10s;
 }
