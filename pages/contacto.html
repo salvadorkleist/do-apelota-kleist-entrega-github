@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contacto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <strong
+        ><em><h3>CONTACTA-CON-NOSOTROS</h3></em></strong
+      >
+
+      <h4 class="logo"><img src="../img/DPl-dw-jpg.jpeg" alt="LOGO" /></h4>
+
+      <hr />
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./sobre nosotros.html">SOBRE-NOSOTROS</a></li>
+          <li><a href="./complejo.html">COMPLEJO</a></li>
+          <li><a href="./servicio.html">SERVICIO</a></li>
+          <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+    <section class="info">
+      <main>
+        <h2><strong>CONTACTO</strong></h2>
+        <h3>whatsapp=3512599502</h3>
+        <h3>email=salvadorkleist@gmail.com</h3>
+        <h3>telefono=numero-de-respaldo</h3>
+
+        <hr />
+
+        <form action="enviar.php">
+          <div>
+            <label for="nombre">NOMBRE</label>
+            <input
+              type="text"
+              name="s"
+              id="nombre"
+              placeholder="Ingresa nombre"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" required />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="edad">EDAD</label>
+            <input type="text" name="f" id="edad" placeholder="Ingresa edad" />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="canchas">QUE-CANCHAS-VAN-A-USAR?</label>
+            <input type="radio" name="canchas" value="1" /> FUTBOL-7
+            <input type="radio" name="canchas" value="2" /> VOLEY
+            <input type="radio" name="canchas" value="3" /> BASQUET
+          </div>
+
+          <br />
+
+          <div>
+            <label for="horarios">QUE-HORARIO?</label>
+            <input type="radio" name="horarios" value="1" /> 17 a 18
+            <input type="radio" name="horarios" value="2" /> 18 a 19
+            <input type="radio" name="horarios" value="3" /> 19 a 20
+            <input type="radio" name="horarios" value="4" /> 20 a 21
+            <input type="radio" name="horarios" value="5" /> 21 a 22
+            <input type="radio" name="horarios" value="6" /> 22 a 23
+            <input type="radio" name="horarios" value="7" /> 23 a 00
+          </div>
+
+          <br />
+
+          <div>
+            <label for="cena">CENAN-ACA?</label>
+            <input type="radio" name="cena" value="1" /> SI
+            <input type="radio" name="cena" value="2" /> NO
+          </div>
+
+          <br />
+
+          <div>
+            <textarea
+              name="detalles"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="cuantos van a comer?"
+            ></textarea>
+          </div>
+
+          <br />
+          <br />
+
+          <input type="submit" value="Enviar ahora" />
+          <input type="reset" value="Borrar todo" />
+
+          <hr />
+        </form>
+      </main>
+    </section>
+
+    <hr />
+
+    <footer>
+      <h3><strong>CONTACTA-CON-NOSOTROS</strong></h3>
+      <nav>
+        <h3>
+          <a href="./contacto.html"><strong>CONTACTANOS</strong></a>
+        </h3>
+      </nav>
+      <h2 class="logo"><img src="../img/DPl-dw-jpg.jpeg" alt="logo" /></h2>
+    </footer>
+  </body>
+</html>
